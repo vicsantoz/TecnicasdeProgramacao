@@ -1,2 +1,2 @@
-# T-cnicas-dePrograma-o
+# TecnicasadeProgramacao
 Listas de Exercícios
