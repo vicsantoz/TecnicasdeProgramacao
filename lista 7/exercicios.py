@@ -1,6 +1,8 @@
 #funções
 
 #1
+import math
+
 def eh_par(x):
     return x % 2 == 0
 
@@ -69,13 +71,14 @@ def fat(n):
 def arranjos(n, p):
     if n < p:
         return -1
-    return fat(n) // fat(n - p)
+    return math.factorial(n) // math.factorial(n - p)
 
 #11
 def combinacoes(n, p):
     if n < p:
         return -1
-    return fat(n) // (fat(p) * fat(n - p))
+    return math.factorial(n) // (math.factorial(p) * math.factorial(n - p))
+
 
 #pergunte ao usuário
 
