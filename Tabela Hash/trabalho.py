@@ -1,5 +1,3 @@
-
-
 from time import perf_counter   #para medir o tempo
 
 #função para remover símbolos
